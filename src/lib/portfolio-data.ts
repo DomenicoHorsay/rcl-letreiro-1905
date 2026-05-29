@@ -30,6 +30,7 @@ import letreiro29 from "@/assets/letreiro/letreiro-29.jpg";
 import letreiro30 from "@/assets/letreiro/letreiro-30.jpg";
 import letreiro31 from "@/assets/letreiro/letreiro-31.jpg";
 import letreiro32 from "@/assets/letreiro/letreiro-32.jpg";
+import omarleteiro from "@/assets/letreiro/bardoomar-portfolio1.jpg";
 
 
 import placa1 from "@/assets/placas/placa-1.jpg";
@@ -219,6 +220,10 @@ export const portfolioCategories: PortfolioCategory[] = [
 {
   src: letreiro31,
   alt: "Projeto de destaque desenvolvido para fortalecer a presença visual.",
+},
+{
+  src: omarleteiro,
+  alt: "Letreiro premium criado para ampliar a visibilidade da empresa.",
 },
 {
   src: letreiro32,

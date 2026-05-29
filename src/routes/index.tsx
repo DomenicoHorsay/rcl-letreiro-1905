@@ -21,7 +21,7 @@ import {
   X,
 } from "lucide-react";
 import heroImg from "@/assets/hero-facade.jpg";
-import p1 from "@/assets/letreiro/letreiro-27.jpg";
+import p1 from "@/assets/letreiro/bardoomar-portfolio1.jpg";
 import p2 from "@/assets/placas/placa-25.jpg";
 import p3 from "@/assets/totem-categoria.jpg";
 import p4 from "@/assets/adesivo-categoria.jpg";
