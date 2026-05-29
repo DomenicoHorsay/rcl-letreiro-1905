@@ -21,12 +21,11 @@ import {
   X,
 } from "lucide-react";
 import heroImg from "@/assets/hero-facade.jpg";
-import p1 from "@/assets/bardoomar-portfolio1.jpg";
-import p2 from "@/assets/its-your-dream-portfolio2.jpg";
+import p1 from "@/assets/letreiro/letreiro-27.jpg";
+import p2 from "@/assets/placas/placa-25.jpg";
 import p3 from "@/assets/totem-categoria.jpg";
 import p4 from "@/assets/adesivo-categoria.jpg";
-import p5 from "@/assets/2r-portfolio5.jpg";
-import p6 from "@/assets/emgepron-portfolio6.jpg";
+
 
 import p7 from "@/assets/instagram/officiodenotas-instagram.jpg";
 import p8 from "@/assets/instagram/skudocybersecurity-instagram.jpg";
@@ -374,15 +373,37 @@ function Differentials() {
 
 function Portfolio() {
   const items = [
-    { src: p1, alt: "Letras caixa iluminadas em fachada corporativa", slug: "letreiro-luminoso", label: "Letreiro Luminoso" },
-    { src: p2, alt: "Placas em fachada de grande porte", slug: "placas", label: "Placas" },
-    { src: p3, alt: "Totem vertical iluminado", slug: "totens", label: "Totens" },
-    { src: p4, alt: "Adesivação em ambiente interno", slug: "adesivacao", label: "Adesivação" },
-    { src: p6, alt: "Fachada com revestimento em ACM e letreiro LED", slug: "fachadas", label: "Fachadas" },
-    { src: p5, alt: "Sinalização padronizada para franquia", slug: "sinalizacao", label: "Sinalização" },
+    {
+      src: p1,
+      alt: "Letras caixa iluminadas em fachada corporativa",
+      slug: "letreiros",
+      label: "Letreiros",
+    },
+    {
+      src: p2,
+      alt: "Placas em fachada de grande porte",
+      slug: "placas",
+      label: "Placas",
+    },
+    {
+      src: p3,
+      alt: "Totem vertical iluminado",
+      slug: "totens",
+      label: "Totens",
+    },
+    {
+      src: p4,
+      alt: "Adesivação em ambiente interno",
+      slug: "adesivacao",
+      label: "Adesivação",
+    },
   ];
+
   return (
-    <section id="portfolio" className="border-t border-border bg-surface py-16 sm:py-20 md:py-32">
+    <section
+      id="portfolio"
+      className="border-t border-border bg-surface py-16 sm:py-20 md:py-32"
+    >
       <div className="container-rcl">
         <div className="flex flex-col items-start justify-between gap-5 md:flex-row md:items-end md:gap-6">
           <div className="max-w-2xl">
