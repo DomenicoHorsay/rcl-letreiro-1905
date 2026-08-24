@@ -31,6 +31,28 @@ import letreiro30 from "@/assets/letreiro/letreiro-30.jpg";
 import letreiro31 from "@/assets/letreiro/letreiro-31.jpg";
 import letreiro32 from "@/assets/letreiro/letreiro-32.jpg";
 import omarleteiro from "@/assets/letreiro/bardoomar-portfolio1.jpg";
+import letreiroSagoconcalo from "@/assets/letreiro/letreiro-saogoncalo.jpeg";
+import letreiroClinica from "@/assets/letreiro/letreiro-clinica.jpeg";
+import letreiroZirtaeb from "@/assets/letreiro/letreiro-zirtaeb.jpeg";
+import letreiroFaculdade from "@/assets/letreiro/letreiro-faculdade.jpeg";
+import letreiroRoca from "@/assets/letreiro/letreiro-roca.jpeg";
+import letreiroComissao1 from "@/assets/letreiro/letreiro-comissao1.jpeg";
+import letreiroComissao from "@/assets/letreiro/letreiro-comissao.jpeg";
+import letreiroMarques from "@/assets/letreiro/letreiro-marques.jpeg";
+import letreiroAl from "@/assets/letreiro/letreiro-al.jpeg";
+import letreiroMidnightLogo from "@/assets/letreiro/letreiro-midnightlogo.jpeg";
+import letreiroLike from "@/assets/letreiro/letreiro-like.jpeg";
+import letreiroGrupo from "@/assets/letreiro/letreiro-grupo.jpeg";
+import letreiroIlhapura from "@/assets/letreiro/letreiro-ilhapura.jpeg";
+import letreiroItanhanga from "@/assets/letreiro/letreiro-itanhanga.jpeg";
+import letreiroSecuidaBoneca from "@/assets/letreiro/letreiro-secuida-boneca.jpeg";
+import letreiroMidnight from "@/assets/letreiro/letreiro-midnight.jpeg";
+import letreiroLeblon1 from "@/assets/letreiro/letreiro-leblon1.jpeg";
+import letreiroLeblon from "@/assets/letreiro/letreiro-leblon.jpeg";
+import letreiroBelae from "@/assets/letreiro/letreiro-belae.jpeg";
+import letreiroSubway from "@/assets/letreiro/letreiro-subway.jpeg";
+import letreiroTbthouse from "@/assets/letreiro/letreiro-tbthouse.jpeg";
+
 
 
 import placa1 from "@/assets/placas/placa-1.jpg";
@@ -59,6 +81,13 @@ import placa25 from "@/assets/placas/placa-25.jpg";
 import placa26 from "@/assets/placas/placa-26.jpg";
 import placa27 from "@/assets/placas/placa-27.jpg";
 import placa28 from "@/assets/placas/placa-28.jpg";
+import placaUnidade from "@/assets/placas/placa-unidade.jpeg";
+import placasEnfermaria from "@/assets/placas/placas-enfermaria.jpeg";
+import placasMesaazul from "@/assets/placas/placas-mesaazul.jpeg";
+import placas17a from "@/assets/placas/placas-17a.jpeg";
+import placas03 from "@/assets/placas/placas-03.jpeg";
+import placasSaida from "@/assets/placas/placas-saida.jpeg";
+import placasBarriletes from "@/assets/placas/placas-barriletes.jpeg";
 
 
 
@@ -72,6 +101,9 @@ import totem7 from "@/assets/totens/toten-7.jpg";
 import totem8 from "@/assets/totens/toten-8.jpg";
 import totem9 from "@/assets/totens/toten-9.jpg";
 import totem10 from "@/assets/totens/toten-10.jpg";
+import totemPerinatal from "@/assets/totens/totem-perinatal.jpeg";
+import totemEplBrasil from "@/assets/totens/totem-eplbrasil.jpeg";
+
 
 
 import adesivo1 from "@/assets/adesivacao/adesivo-1.jpg";
@@ -81,6 +113,9 @@ import adesivo4 from "@/assets/adesivacao/adesivo-4.jpg";
 import adesivo5 from "@/assets/adesivacao/adesivo-5.jpg";
 import adesivo6 from "@/assets/adesivacao/adesivo-6.jpg";
 import adesivo7 from "@/assets/adesivacao/adesivo-7.jpg";
+import adesivacaoImunidade from "@/assets/adesivacao/adesivacao-imunidade.jpeg";
+import adesivacaoHapvida from "@/assets/adesivacao/adesivação-hapvida.jpeg";
+import adesivacaoHap from "@/assets/adesivacao/adesivação-hap.jpeg";
 
 export type PortfolioCategory = {
   slug: string;
@@ -229,6 +264,90 @@ export const portfolioCategories: PortfolioCategory[] = [
   src: letreiro32,
   alt: "Letreiro premium criado para ampliar a visibilidade da empresa.",
 },
+{
+  src: letreiroSagoconcalo,
+  alt: "Projeto de letreiro personalizado.",
+},
+{
+  src: letreiroClinica,
+  alt: "Letreiro desenvolvido para clínica.",
+},
+{
+  src: letreiroZirtaeb,
+  alt: "Projeto de comunicação visual.",
+},
+{
+  src: letreiroFaculdade,
+  alt: "Letreiro desenvolvido para ambiente educacional.",
+},
+{
+  src: letreiroRoca,
+  alt: "Letreiro personalizado para fachada.",
+},
+{
+  src: letreiroComissao1,
+  alt: "Projeto de letreiro com acabamento profissional.",
+},
+{
+  src: letreiroComissao,
+  alt: "Comunicação visual desenvolvida sob medida.",
+},
+{
+  src: letreiroMarques,
+  alt: "Letreiro personalizado para destacar a marca.",
+},
+{
+  src: letreiroAl,
+  alt: "Projeto de letreiro comercial.",
+},
+{
+  src: letreiroMidnightLogo,
+  alt: "Logo produzido em formato de letreiro.",
+},
+{
+  src: letreiroLike,
+  alt: "Letreiro criado para fortalecer a identidade visual.",
+},
+{
+  src: letreiroGrupo,
+  alt: "Projeto de comunicação visual para empresa.",
+},
+{
+  src: letreiroIlhapura,
+  alt: "Letreiro personalizado com acabamento profissional.",
+},
+{
+  src: letreiroItanhanga,
+  alt: "Projeto de letreiro desenvolvido sob medida.",
+},
+{
+  src: letreiroSecuidaBoneca,
+  alt: "Letreiro personalizado para comunicação visual.",
+},
+{
+  src: letreiroMidnight,
+  alt: "Letreiro comercial com identidade visual personalizada.",
+},
+{
+  src: letreiroLeblon1,
+  alt: "Projeto de letreiro para estabelecimento comercial.",
+},
+{
+  src: letreiroLeblon,
+  alt: "Letreiro desenvolvido para ampliar a visibilidade da marca.",
+},
+{
+  src: letreiroBelae,
+  alt: "Comunicação visual com acabamento personalizado.",
+},
+{
+  src: letreiroSubway,
+  alt: "Projeto de letreiro para ponto comercial.",
+},
+{
+  src: letreiroTbthouse,
+  alt: "Letreiro personalizado para fachada comercial.",
+},
     ],
   },
 
@@ -343,6 +462,33 @@ export const portfolioCategories: PortfolioCategory[] = [
 {
   src: placa28,
   alt: "Projeto visual criado para ampliar o reconhecimento da empresa.",
+},{
+  src: placaUnidade,
+  alt: "Placa de identificação desenvolvida para sinalização de unidade.",
+},
+{
+  src: placasEnfermaria,
+  alt: "Placas de sinalização produzidas para identificação de enfermaria.",
+},
+{
+  src: placasMesaazul,
+  alt: "Placa personalizada desenvolvida para sinalização interna.",
+},
+{
+  src: placas17a,
+  alt: "Placa de identificação produzida com acabamento profissional.",
+},
+{
+  src: placas03,
+  alt: "Projeto de placa desenvolvido para comunicação e sinalização.",
+},
+{
+  src: placasSaida,
+  alt: "Placa de saída desenvolvida para sinalização de ambiente.",
+},
+{
+  src: placasBarriletes,
+  alt: "Placas de identificação produzidas para sinalização técnica.",
 },
     ],
   },
@@ -394,6 +540,14 @@ export const portfolioCategories: PortfolioCategory[] = [
   src: totem10,
   alt: "Presença marcante através de comunicação visual estratégica.",
 },
+{
+  src: totemPerinatal,
+  alt: "Totem personalizado desenvolvido para comunicação visual.",
+},
+{
+  src: totemEplBrasil,
+  alt: "Totem produzido para destacar a identidade visual da empresa.",
+},
     ],
   },
 
@@ -431,6 +585,18 @@ export const portfolioCategories: PortfolioCategory[] = [
 {
   src: adesivo7,
   alt: "Adesivação estratégica para ampliar a presença da marca.",
+},
+{
+  src: adesivacaoImunidade,
+  alt: "Projeto de adesivação personalizado para comunicação visual.",
+},
+{
+  src: adesivacaoHapvida,
+  alt: "Adesivação desenvolvida para fortalecer a identidade visual da marca.",
+},
+{
+  src: adesivacaoHap,
+  alt: "Projeto de adesivação produzido com acabamento profissional.",
 },
     ],
   },
